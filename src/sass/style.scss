@@ -1,0 +1,32 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'base/variables';
+@import 'libs/slick';
+
+.container {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+};
+
+@import 'blocks/main';
+@import 'blocks/call';
+@import 'blocks/button';
+@import 'blocks/title';
+@import 'blocks/subtitle';
+@import 'blocks/advantages';
+@import 'blocks/work';
+@import 'blocks/staff';
+@import 'blocks/prices';
+@import 'blocks/consultation';
+@import 'blocks/form';
+@import 'blocks/plan';
+@import 'blocks/reviews';
+@import 'blocks/carusel';
+@import 'blocks/question';
+@import 'blocks/map';
+@import 'blocks/footer';
+@import 'blocks/media';
+@import 'blocks/modal';
+@import 'blocks/pageup';
+

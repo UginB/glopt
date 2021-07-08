@@ -1,0 +1,50 @@
+.footer {
+    height: 201px;
+    background-color: #25333c;
+    &__header {
+        padding-top: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 71px;
+    }
+    &__logo {
+        margin-right: 43px;
+        width: 68px;
+        height: 71px;
+    }
+    &__name {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    hr {
+        background-color: gray;
+        margin-top: 26px;
+    }
+    &__footer {
+        height: 78px;
+        display: flex;
+        align-items: center;
+    }
+    &__date {
+        margin-left: 10px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    &__privacy {
+        margin-left: 223px;
+        color: $main-color;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        &:hover {
+            text-decoration: underline;
+            color: $main-color;
+        }
+    }
+
+}

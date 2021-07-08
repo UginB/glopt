@@ -1,0 +1,32 @@
+.work {
+    height: 620px;
+    padding-top: 51px;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 37px;
+    }
+    &__item {
+        width: 33%;
+        margin-bottom: 57px;
+        img {
+            width: 100%;
+        }
+    }
+    &__text {
+        margin-top: 22px;
+        display: block;
+        text-align: center;
+        color: #3a3a3a;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        font-weight: 300;
+        span {
+            color: $main-color;
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+}

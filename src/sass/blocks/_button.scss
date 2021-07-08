@@ -1,0 +1,29 @@
+.button {
+    width: 160px;
+    height: 45px;
+    background-color: $main-color;
+    border: none;
+    border-radius: 100px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    &_main {
+        width: 230px;
+        height: 57px;
+        display: block;
+        margin: 0 auto;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    &_price {
+        display: block;
+        margin: 25px auto 0 auto;
+    }
+    &_question {
+        width: 180px;
+        height: 45px;
+    }
+}

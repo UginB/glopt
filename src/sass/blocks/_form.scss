@@ -1,0 +1,36 @@
+.consultation-form {
+    margin: 0 auto;
+    max-width: 813px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .input {
+        width: 268px;
+        height: 45px;
+        margin: 17px auto 29px auto;
+        border: 1px solid rgba(0, 0, 0, 0.21);
+        border-radius: 100px;
+        background-color: #ffffff;
+        color: #101010;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        padding-left: 28px;
+        &_question {
+            margin: 18px auto 8px auto;
+        }
+    }
+    &__message {
+        padding: 18px 29px 41px 29px;
+        width: 813px;
+        height: 71px;
+        border: 1px solid rgba(0, 0, 0, 0.21);
+        background-color: #ffffff;
+        border-radius: 10px;
+        color: #616467;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        margin-bottom: 17px;
+    }
+}

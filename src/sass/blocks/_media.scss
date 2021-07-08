@@ -1,0 +1,316 @@
+@media (max-width: 1199px) {
+    .main {
+        padding: 10px 0 82px 0;
+        &__header {
+            justify-content: space-between;
+        }
+        &__nav {
+            margin: 0 10px 0 10px;
+        }
+        .call {
+            flex-wrap: wrap;
+            justify-content: center;
+            height: 100px;
+            width: 180px;
+            &__question {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            &__phone {
+                font-size: 20px;
+            }
+        }
+    }
+    .prices {
+        &__items {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
+    .advantages {
+        &__items {
+           justify-content: space-around; 
+        }
+        
+    }
+}
+
+@media (max-width: 991px) {
+    .main {
+        &__header {
+            .call {
+                position: absolute;
+                top: 260px;
+                right: 32%;
+                flex-wrap: wrap;
+                justify-content: center;
+                height: 128px;
+                width: 270px;
+                &__question {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                }
+                &__phone {
+                    font-size: 25px;
+                }
+            }    
+        }
+        &__header-text {
+            font-size: 45px;
+        }
+        &__supheader {
+            margin: 0 0 0 40px;
+        }
+        &__subheader {
+            font-size: 28px;
+        }
+        &__divider {
+            width: 90%;
+            margin: 130px auto 15px auto;
+        }
+    }
+    .consultation { 
+        margin-top: 30px;
+        .consultation-form {
+            max-width: 420px;
+            input {
+                margin: 17px auto 20px auto;
+            }
+        }
+    }
+    .question {
+        padding: 50px 0 30px 0;
+        .consultation-form {
+            width: 530px;
+            &__message {
+                width: 600px;
+            }
+        }
+    }
+    .footer {
+        padding: 10px 10px 0 10px;
+        &__logo {
+            margin-right: 10px;
+        }
+        &__name {
+            font-size: 11px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .main {
+        padding: 0 0;
+        &__header {
+            .call {
+                top: 200px;
+                &__phone {
+                    font-size: 30px;
+                }
+            }  
+            img {
+                display: none;
+            }
+            .hamburger {
+                display: block;
+                position: absolute;
+                right: 30px;
+                top: 5%;
+                transform: translateY(-50%);
+                width: 26px;
+                height: 12px;
+                span {
+                    display: block;
+                    height: 2px;
+                    width: 100%;
+                    background-color: #fff;
+                    margin-bottom: 2px;
+                    transition: 0.5s all;
+                }      
+                &_active {
+                    span {
+                        margin-bottom: -2px;
+                        &:nth-of-type(1) {
+                            transform: translateY(3px) rotate(-45deg)
+                        }
+                        &:nth-of-type(2) {
+                            display: none
+                        } 
+                        &:nth-of-type(3) {
+                            transform: translateY(3px) rotate(45deg)
+                        }   
+                    }
+                }         
+            }     
+        }
+        &__header-text {
+            font-size: 45px;
+        }
+        &__supheader {
+            font-size: 18px;
+            margin: 50px 0 0 40px;
+        }
+        &__subheader {
+            font-size: 28px;
+        }
+        &__nav {
+            z-index: 1;
+            position: fixed;
+            margin: 0 0;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            top: 0;
+            left: -100%;
+            width: 40vh;
+            height: 80vh;
+            background-color: rgba(0,0,0,.8);
+            transition: 0.6s all;
+            &_active {
+                left: 0;
+            }
+        }
+        &__nav-link {
+            font-size: 30px;
+        }
+    }
+    .work {
+        &__items {
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        &__item {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            width: 90%;
+            img {
+                width: 360px;
+            }
+        }
+        &__img {
+            margin: 0 auto;
+        }
+        &__text {
+            margin-top: 5px;
+        }
+    }
+    .question {
+        .consultation-form__message {
+            width: 355px;
+        }
+    }
+    .footer {
+        &__header {
+            justify-content: space-around;
+        }
+        &__name {
+            display: none;
+        }
+        .call__phone {
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        max-width: 100%;
+    }
+    .main {
+        &__header {
+            .call {
+                display: none;
+            }    
+        }
+        &__header-text {
+            font-size: 30px;
+        }
+        &__supheader {
+            margin: 50px 0 0 40px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+        &__divider {
+            margin: 15px auto 15px auto;
+        }
+        &__items {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
+    .advantages {
+        &__items {
+           width: 100%; 
+        }
+        .title {
+            font-size: 20px;
+        }
+        &__item {
+            width: 70%;
+        }
+    }
+    .question {
+        .consultation-form {
+           width: 100%;
+        }
+    }
+    .footer {
+        &__privacy {
+            margin-left: 20px;
+        }
+    }
+  
+}
+
+
+    // media (max-width: 767px)
+    //     .container
+    //         .menu
+    //             position: fixed
+    //             flex-direction: column
+    //             justify-content: center
+    //             align-items: center
+    //             top: 0
+    //             left: -100%
+    //             width: 50%
+    //             height: 100vh
+    //             padding: 20px 15px
+    //             background-color: rgba(0,0,0,.8)
+    //             transition: 0.6s all
+    //             &_active
+    //                 left: 0
+    //             &_item
+    //                 padding-right: none
+    //                 border: none
+    //                 margin: 10px 0
+    //             &_link
+    //                 font-size: 20px
+    //         .hamburger
+    //             display: block
+    //             position: absolute
+    //             right: 10px
+    //             top: 50%
+    //             transform: translateY(-50%)
+    //             width: 26px
+    //             height: 12px
+    //             span
+    //                 display: block
+    //                 height: 2px
+    //                 width: 100%
+    //                 background-color: #fff
+    //                 margin-bottom: 2px
+    //                 transition: 0.5s all
+    //             &_active
+    //                 span
+    //                     margin-bottom: -2px
+    //                     &:nth-of-type(1)
+    //                         transform: translateY(3px) rotate(-45deg)
+    //                     &:nth-of-type(2)
+    //                         display: none
+    //                     &:nth-of-type(3)
+    //                         transform: translateY(3px) rotate(45deg)

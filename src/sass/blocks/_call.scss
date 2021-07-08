@@ -1,0 +1,27 @@
+.call {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    width: 330px;
+    &__question {
+        display: block;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: right;
+        line-height: 1.3;
+    }
+    &__phone {
+        display: block;
+        text-align: right;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 17px;
+        font-weight: 700;
+        &:hover {
+            text-decoration: none;
+            color: $main-color;
+        }
+    }
+}

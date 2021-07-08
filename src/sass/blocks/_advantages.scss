@@ -1,0 +1,35 @@
+.advantages {
+    display: flex;
+    justify-content: center;
+    min-height: 590px;
+    padding-top: 58px;
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        margin-top: 35px;
+        width: 540px;
+    }
+    &__img {
+        display: block;
+        margin: 3px 15px 0 0;
+        height: 50px;
+        width: 55px;
+    }
+    &__text {
+        width: 450px;
+        font-family: "Roboto";
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        span {
+            color: $main-color;
+            font-family: "Roboto";
+            font-size: 16px;
+            font-weight: 700; 
+        }
+    }
+}
